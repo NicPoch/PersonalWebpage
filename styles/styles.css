@@ -32,6 +32,7 @@ body nav {
   width: 100%;
 }
 body nav ul {
+  width: 100%;
   list-style: none;
 }
 body nav ul li {
@@ -59,6 +60,20 @@ body main article section a {
   font-family: Arial, Helvetica, sans-serif;
   color: #1D1B59;
 }
+body main article section .btn {
+  width: auto;
+}
+body main article section .btn-primary {
+  background-color: cyan;
+  color: #696969;
+  font-size: 20px;
+  border: none;
+}
+body main article section .btn-danger {
+  font-size: 20px;
+  background-color: #eb7171;
+  border: none;
+}
 body main aside {
   margin-right: 1vw;
   padding-right: 1vw;
@@ -77,6 +92,10 @@ body main aside .row ul {
 body main aside .row ul li {
   text-align: center;
 }
+body main aside .row ul li a {
+  text-decoration: none;
+  color: #1D1B59;
+}
 body main aside .row .carousel-control-prev {
   background-color: #CFCFCF;
   height: auto;
@@ -92,10 +111,15 @@ body footer a {
 }
 
 @media screen and (max-width: 1199px) {
+  body {
+    margin-right: auto;
+  }
   body header h1 {
     width: 100%;
     float: left;
     margin-bottom: 2vw;
+    text-align: left;
+    text-overflow: unset;
   }
   body header img {
     margin-top: 5vw;
@@ -120,6 +144,7 @@ body footer a {
 }
 @media screen and (max-width: 1115px) {
   body header h1 {
+    font-size: 5em;
     width: 100%;
     float: left;
     margin-bottom: 1px;
