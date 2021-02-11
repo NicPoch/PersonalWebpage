@@ -13,7 +13,7 @@ body
     h2
     {
         font-size: 3em;
-        font-family: 'Impact';
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
     header
     {
@@ -23,10 +23,10 @@ body
         h1
         {
             color: #1D1B59;
-            font-family: 'Impact';
-            font-size: 10em;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+            font-size: 9em;
+            text-overflow: unset;
             text-align: left;
-            overflow: unset;
         }
         img
         {
@@ -65,7 +65,7 @@ body
     }
     main
     {
-        overflow: auto;
+        
         article
         {
             margin-right: 1.5vw;

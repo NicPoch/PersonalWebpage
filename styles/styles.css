@@ -6,7 +6,7 @@ body {
 }
 body h2 {
   font-size: 3em;
-  font-family: "Impact";
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 body header {
   display: inline-block;
@@ -15,10 +15,10 @@ body header {
 }
 body header h1 {
   color: #1D1B59;
-  font-family: "Impact";
-  font-size: 10em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 9em;
+  text-overflow: unset;
   text-align: left;
-  overflow: unset;
 }
 body header img {
   transform: rotate(90deg);
@@ -47,9 +47,6 @@ body nav ul a {
   text-decoration: none;
   font-size: 1.5em;
   color: #1D1B59;
-}
-body main {
-  overflow: auto;
 }
 body main article {
   margin-right: 1.5vw;
