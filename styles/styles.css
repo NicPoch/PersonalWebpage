@@ -18,6 +18,7 @@ body header h1 {
   font-family: "Impact";
   font-size: 10em;
   text-align: left;
+  overflow: unset;
 }
 body header img {
   transform: rotate(90deg);
