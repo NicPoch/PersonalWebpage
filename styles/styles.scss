@@ -82,8 +82,8 @@ body
         }
         aside
         {
-            margin-left: 1.5vw;
-            padding-left: 1vw;
+            margin-right:1vw ;
+            padding-right: 1vw;
             float: right;
             .row
             {
@@ -91,6 +91,15 @@ body
                 h3
                 {
                     margin-bottom: 1vw;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                }
+                ul
+                {
+                    list-style: none;
+                    li
+                    {
+                        text-align:center;
+                    }
                 }
                 a
                 {

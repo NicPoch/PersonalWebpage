@@ -63,8 +63,8 @@ body main article section a {
   color: #1D1B59;
 }
 body main aside {
-  margin-left: 1.5vw;
-  padding-left: 1vw;
+  margin-right: 1vw;
+  padding-right: 1vw;
   float: right;
 }
 body main aside .row {
@@ -72,6 +72,13 @@ body main aside .row {
 }
 body main aside .row h3 {
   margin-bottom: 1vw;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+body main aside .row ul {
+  list-style: none;
+}
+body main aside .row ul li {
+  text-align: center;
 }
 body main aside .row a {
   color: #1D1B59;
