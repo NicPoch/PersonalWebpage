@@ -1,5 +1,5 @@
 # My Personal Website Project
-Link: <a href="https://nicpoch.github.io/PersonalWebpage/paginaPersonal.html">website</a>
+Link: <a href="https://nicpoch.github.io/PersonalWebpage/paginaPersonal.html" target="_blank">website</a>
 <br>
 ## What is used on this Project?
 <ul>
