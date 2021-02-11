@@ -64,8 +64,11 @@ body
     }
     main
     {
+        overflow: auto;
         article
         {
+            margin-right: 1.5vw;
+            padding-right: 1vw;
             section
             {
                 margin-bottom: 1vw;
@@ -78,6 +81,8 @@ body
         }
         aside
         {
+            margin-left: 1.5vw;
+            padding-left: 1vw;
             float: right;
             .row
             {
