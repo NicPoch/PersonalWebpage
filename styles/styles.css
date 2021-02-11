@@ -23,8 +23,6 @@ body header img {
   transform: rotate(90deg);
   width: 35vw;
   height: 25vw;
-  max-width: fit-content;
-  max-height: fit-content;
   object-fit: cover;
   float: right;
 }
@@ -108,7 +106,7 @@ body footer a {
     width: 100%;
   }
   body nav ul {
-    display: block;
+    display: list-item;
   }
   body nav ul li {
     width: 100%;

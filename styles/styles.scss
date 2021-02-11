@@ -32,8 +32,6 @@ body
             transform: rotate(90deg);
             width: 35vw;
             height: 25vw;
-            max-width: fit-content;
-            max-height: fit-content;
             object-fit: cover;
             float: right;
         }        
@@ -171,7 +169,7 @@ body
             width:100%;
             ul
             {
-                display: block;
+                display: list-item;
                 li
                 {
                     width: 100%;
@@ -218,4 +216,3 @@ body
         }
     }
 }
-
