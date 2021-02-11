@@ -9,6 +9,7 @@ Link: <a href="https://nicpoch.github.io/PersonalWebpage/paginaPersonal.html" ta
   <li>Bootstrap</li>
 </ul>
 <br>
+
 ## What is the project?
 <p>
   A responsive personal website project deployed on GitHub Pages. Responsive both by using Bootstrap 4.0.0 classes and different rule sets on css.
