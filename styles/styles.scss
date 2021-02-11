@@ -1,15 +1,16 @@
 /* Color Theme Swatches in Hex */
 $Diseño-gráfico-1-hex: #1D1B59;
-$Diseño-gráfico-2-hex: #025939;
-$Diseño-gráfico-3-hex: #F2E85C;
+$Diseño-gráfico-2-hex: #696969;
+$Diseño-gráfico-3-hex: #E8E8E8;
 $Diseño-gráfico-4-hex: #D9D9D9;
-$Diseño-gráfico-5-hex: #F2DA5E;
+$Diseño-gráfico-5-hex: #CFCFCF;
+
 
 body
 {
     margin: 0;
     padding: 0;
-    background-color: #D9D9D9;
+    background-color: #E8E8E8;    
     h2
     {
         font-size: 3em;
@@ -101,9 +102,17 @@ body
                         text-align:center;
                     }
                 }
-                a
+                .carousel-control-prev
                 {
-                    color: #1D1B59;
+                    background-color:  #CFCFCF;
+                    height: auto;
+                    padding: auto;
+                }
+                .carousel-control-next
+                {
+                    background-color:  #CFCFCF;
+                    height: auto;
+                    padding: auto;
                 }
             }
         }
@@ -141,24 +150,25 @@ body
             {
                 section
                 {
+                    width: 100%;
                     p
                     {
                         margin: 0 1px 0 0;
                         text-align: left;
-                        width: auto;
+                        width: inherit;
                         text-overflow: clip;
                     }
                 }
             }
             aside
             {
-                float: right;
+                float: left;
+                width: 100%;
                 .row
                 {
-                    text-align: left;
-                    table
+                    h3
                     {
-                        width: 100%;
+                        text-align: center;
                     }
                 }
             }
@@ -192,6 +202,7 @@ body
                     position: sticky;
                     a
                     {
+                        width: inherit;
                         text-align: center;
                     }
                 }
@@ -207,7 +218,7 @@ body
                     {
                         margin: 0 1px 0 0;
                         text-align: left;
-                        width: auto;
+                        width: 100%;
                         text-overflow: clip;
                     }
                 }
@@ -216,16 +227,10 @@ body
             {
                 float: left;
                 text-align: left;
-                width: auto;
+                width: 100%;
                 .row
                 {
                     text-align: center;
-                    table
-                    {
-                        align-self: center;
-                        align-content: center;
-                        width: inherit;
-                    }
                 }
             }
         }

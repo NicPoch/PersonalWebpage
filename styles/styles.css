@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #D9D9D9;
+  background-color: #E8E8E8;
 }
 body h2 {
   font-size: 3em;
@@ -77,8 +77,15 @@ body main aside .row ul {
 body main aside .row ul li {
   text-align: center;
 }
-body main aside .row a {
-  color: #1D1B59;
+body main aside .row .carousel-control-prev {
+  background-color: #CFCFCF;
+  height: auto;
+  padding: auto;
+}
+body main aside .row .carousel-control-next {
+  background-color: #CFCFCF;
+  height: auto;
+  padding: auto;
 }
 body footer a {
   color: #1D1B59;
@@ -94,20 +101,21 @@ body footer a {
     margin-top: 5vw;
     float: left;
   }
+  body main article section {
+    width: 100%;
+  }
   body main article section p {
     margin: 0 1px 0 0;
     text-align: left;
-    width: auto;
+    width: inherit;
     text-overflow: clip;
   }
   body main aside {
-    float: right;
-  }
-  body main aside .row {
-    text-align: left;
-  }
-  body main aside .row table {
+    float: left;
     width: 100%;
+  }
+  body main aside .row h3 {
+    text-align: center;
   }
 }
 @media screen and (max-width: 1115px) {
@@ -128,25 +136,21 @@ body footer a {
     position: sticky;
   }
   body nav ul li a {
+    width: inherit;
     text-align: center;
   }
   body main article section p {
     margin: 0 1px 0 0;
     text-align: left;
-    width: auto;
+    width: 100%;
     text-overflow: clip;
   }
   body main aside {
     float: left;
     text-align: left;
-    width: auto;
+    width: 100%;
   }
   body main aside .row {
     text-align: center;
-  }
-  body main aside .row table {
-    align-self: center;
-    align-content: center;
-    width: inherit;
   }
 }
