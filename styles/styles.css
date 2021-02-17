@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
 }
 body h2 {
   font-size: 3em;
@@ -14,7 +14,7 @@ body header {
   margin: 0 0 0.5vw 0;
 }
 body header h1 {
-  color: #1D1B59;
+  color: #1d1b59;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 9em;
   text-overflow: unset;
@@ -28,7 +28,7 @@ body header img {
   float: right;
 }
 body nav {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   width: 100%;
 }
 body nav ul {
@@ -47,7 +47,7 @@ body nav ul li:hover {
 body nav ul a {
   text-decoration: none;
   font-size: 1.5em;
-  color: #1D1B59;
+  color: #1d1b59;
 }
 body main article {
   margin-right: 1.5vw;
@@ -58,7 +58,7 @@ body main article section {
 }
 body main article section a {
   font-family: Arial, Helvetica, sans-serif;
-  color: #1D1B59;
+  color: #1d1b59;
 }
 body main article section .btn {
   width: auto;
@@ -94,20 +94,20 @@ body main aside .row ul li {
 }
 body main aside .row ul li a {
   text-decoration: none;
-  color: #1D1B59;
+  color: #1d1b59;
 }
 body main aside .row .carousel-control-prev {
-  background-color: #CFCFCF;
+  background-color: #cfcfcf;
   height: auto;
   padding: auto;
 }
 body main aside .row .carousel-control-next {
-  background-color: #CFCFCF;
+  background-color: #cfcfcf;
   height: auto;
   padding: auto;
 }
 body footer a {
-  color: #1D1B59;
+  color: #1d1b59;
 }
 
 @media screen and (max-width: 1199px) {
@@ -179,3 +179,6 @@ body footer a {
     text-align: center;
   }
 }
+
+/* You could include a horizontal padding to all the content to made your website readable */
+/* Links should be highlighted so that the user knows that it is clickable */
